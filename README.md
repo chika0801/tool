@@ -101,5 +101,5 @@ curl -sLo speedtest https://github.com/chika0801/tool/raw/main/speedtest && chmo
 ```
 
 ```
-curl -o /dev/null "https://speed.cloudflare.com/__down?bytes=1145141919810"
+curl -o /dev/null https://speed.cloudflare.com/__down?bytes=1145141919810
 ```
