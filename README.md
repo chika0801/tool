@@ -71,7 +71,7 @@ traceroute -l 1400 IP
 ### 流媒体解锁
 
 ```
-bash <(curl -L -s check.unlock.media)
+curl -fsL https://ilemonra.in/LemonBench | bash -s -- --fast
 ```
 
 或
