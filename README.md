@@ -12,7 +12,7 @@ curl -sL yabs.sh | bash -s -- -ig
 
 ### 回程路由
 
-BestTrace
+**BestTrace**
 
 ```
 curl -sLo besttrace https://github.com/chika0801/tool/raw/main/besttrace && chmod +x besttrace
@@ -26,7 +26,7 @@ curl -sLo besttrace https://github.com/chika0801/tool/raw/main/besttrace && chmo
 ./besttrace --tcp IP
 ```
 
-NextTrace
+**NextTrace**
 
 ```
 curl -sLo nexttrace https://github.com/sjlleo/nexttrace/releases/latest/download/nexttrace_linux_amd64 && chmod +x nexttrace
@@ -44,7 +44,7 @@ curl -sLo nexttrace https://github.com/sjlleo/nexttrace/releases/latest/download
 ./nexttrace --udp IP
 ```
 
-traceroute
+**traceroute**
 
 ```
 apt install -y traceroute
@@ -62,7 +62,7 @@ traceroute --tcp IP
 traceroute --udp IP 1400
 ```
 
-MTR
+**MTR**
 
 ```
 apt install -y mtr-tiny
