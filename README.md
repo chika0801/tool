@@ -44,20 +44,6 @@ curl -sLo nexttrace https://github.com/sjlleo/nexttrace/releases/latest/download
 ./nexttrace --udp IP
 ```
 
-MTR
-
-```
-apt install -y mtr-tiny
-```
-
-```
-mtr --tcp --psize 1400 IP
-```
-
-```
-mtr --udp --psize 1400 IP
-```
-
 traceroute
 
 ```
@@ -74,6 +60,20 @@ traceroute --udp IP 1400
 
 ```
 traceroute --tcp IP
+```
+
+MTR
+
+```
+apt install -y mtr-tiny
+```
+
+```
+mtr --tcp --psize 1400 IP
+```
+
+```
+mtr --udp --psize 1400 IP
 ```
 
 ### 流媒体解锁
