@@ -55,11 +55,11 @@ traceroute --icmp IP 1400
 ```
 
 ```
-traceroute --udp IP 1400
+traceroute --tcp IP
 ```
 
 ```
-traceroute --tcp IP
+traceroute --udp IP 1400
 ```
 
 MTR
