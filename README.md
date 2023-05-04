@@ -47,7 +47,7 @@ curl -sLo nexttrace https://github.com/sjlleo/nexttrace/releases/latest/download
 MTR
 
 ```
-apt install -y mtr
+apt install -y mtr-tiny
 ```
 
 ```
@@ -65,7 +65,15 @@ apt install -y traceroute
 ```
 
 ```
-traceroute -l 1400 IP
+traceroute --icmp IP 1400
+```
+
+```
+traceroute --udp IP 1400
+```
+
+```
+traceroute --tcp IP
 ```
 
 ### 流媒体解锁
