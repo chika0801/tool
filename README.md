@@ -89,5 +89,5 @@ curl -sLo speedtest https://github.com/chika0801/tool/raw/main/speedtest && chmo
 ```
 
 ```
-./speedtest
+./speedtest --accept-license
 ```
