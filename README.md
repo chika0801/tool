@@ -85,7 +85,7 @@ curl -sL https://raw.githubusercontent.com/chika0801/tool/main/speedtest.sh | ba
 或
 
 ```
-curl -sLo speedtest https://github.com/chika0801/tool/raw/main/speedtest && chmod +x speedtest
+curl -sLo sp https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz && tar -xzf sp && rm -r sp speedtest.5 speedtest.md && chown root:root speedtest
 ```
 
 ```
