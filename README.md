@@ -39,7 +39,7 @@ curl -sLo nexttrace https://github.com/sjlleo/nexttrace/releases/latest/download
 **MTR**
 
 ```
-apt install mtr-tiny -y
+apt install -y mtr-tiny
 ```
 
 ```
@@ -53,7 +53,7 @@ mtr --udp --psize 1400 IP
 **traceroute**
 
 ```
-apt install traceroute -y
+apt install -y traceroute
 ```
 
 ```
