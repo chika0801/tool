@@ -69,11 +69,11 @@ bash <(curl -L -s check.unlock.media)
 或
 
 ```
-curl -sLo nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && curl -sLo ytb https://github.com/sjlleo/TubeCheck/releases/download/1.0Beta/tubecheck_1.0beta_linux_amd64 && chmod +x nf ytb
+curl -sLo nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0-1/nf_linux_amd64 && chmod +x nf
 ```
 
 ```
-./nf && ./ytb
+./nf
 ```
 
 ### 测速
