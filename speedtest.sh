@@ -20,6 +20,7 @@ speed() {
     speed_test '40508'  'Singapore'
     speed_test '21541'  'Los Angeles, CA'
     speed_test '43263'  'Newark, NJ'
+    speed_test '53651'  'Frankfurt'
 }
 
 curl -sLo sp https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz && tar -xzf sp && rm -r sp speedtest.5 speedtest.md && chown root:root speedtest
