@@ -83,5 +83,5 @@ curl -sLo sp https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x
 ```
 
 ```
-./speedtest --accept-license
+./speedtest --accept-license --accept-gdpr
 ```
