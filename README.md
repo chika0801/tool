@@ -19,6 +19,10 @@ curl -sLo besttrace https://github.com/chika0801/tool/raw/main/besttrace && chmo
 ```
 
 ```
+./besttrace IP
+```
+
+```
 ./besttrace --tcp IP
 ```
 
@@ -48,16 +52,6 @@ mtr --tcp --psize 1400 IP
 
 ```
 mtr --udp --psize 1400 IP
-```
-
-**traceroute**
-
-```
-apt install -y traceroute
-```
-
-```
-traceroute --icmp IP 1400
 ```
 
 ### 流媒体解锁
