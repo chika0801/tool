@@ -26,4 +26,4 @@ speed() {
 curl -sLo sp https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz && tar -xzf sp && rm sp speedtest.5 speedtest.md && chown root:root speedtest
 rm -r speedtest-cli && mkdir speedtest-cli && mv speedtest speedtest-cli
 clear && printf "%-18s%-18s%-20s%-12s\n" " Node Name" "Upload Speed" "Download Speed" "Latency"
-speed && rm -r /root/speedtest-cli && rm -r /root/.config/ookla
+speed && rm -r speedtest-cli && rm -r /root/.config/ookla
