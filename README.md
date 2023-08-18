@@ -12,20 +12,6 @@ curl -sL yabs.sh | bash -s -- -ig
 
 ### 回程路由
 
-**BestTrace**
-
-```
-curl -sLo besttrace https://github.com/chika0801/tool/raw/main/besttrace && chmod +x besttrace
-```
-
-```
-./besttrace IP
-```
-
-```
-./besttrace --tcp IP
-```
-
 **NextTrace**
 
 ```
