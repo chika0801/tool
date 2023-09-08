@@ -4,6 +4,12 @@
 curl -sL yabs.sh | bash -s -- -fi -5
 ```
 
+或
+
+```
+bash <(curl -sL gb5.top)
+```
+
 ### 硬盘
 
 ```
@@ -49,7 +55,7 @@ bash <(curl -L -s check.unlock.media)
 或
 
 ```
-curl -sLo nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0-1/nf_linux_amd64 && chmod +x nf
+curl -sLo nf https://github.com/sjlleo/netflix-verify/releases/latest/download/nf_linux_amd64 && chmod +x nf
 ```
 
 ```
